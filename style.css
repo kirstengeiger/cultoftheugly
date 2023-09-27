@@ -1,18 +1,81 @@
-style {
-    @import url 
-        (https://fonts.googleapis.com/css2?family=Gelasio:wght@600&display=swap) 
-        (https://fonts.googleapis.com/css2?family=Gelasio:wght@600&family=Inter&display=swap);
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,600;1,400;1,600&family=Open+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap');
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    /* top right bottom left */
+    margin: 20px 10% 20px 40%;
 }
 
-header {
-    color: black;
+.title {
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.info {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.highlight {
+    color: gray;
+}
+
+.intro {
+    font-family: 'Gelasio', serif;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 0.63;
+    /* top right bottom left */
+    margin: 10% 10% 10% 10%;
+}
+
+blockquote {
+    line-height: 1.3em;
+}
+
+.quote {
     font-family:'Gelasio', serif;
+    font-style: italic;
+    color: black;
 }
 
-h1 {
-    font-size:xx-large; 
+.name {
+    font-family:'Gelasio', serif;
+    font-style: italic;
+    color: #949494;
 }
 
-h3, p {
-    font-family: 'Inter', sans-serif;
+.section_title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 3%;
+}
+
+.callout {
+    font-family: 'Gelasio Regular', serif;
+    font-size: 70px;
+    font-weight: 100;
+    line-height: 0.6;
+    /* top right bottom left */
+    margin: 5% 30% 5% 10%;
+}
+
+em {
+    font-style: italic;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin: 5% 80% 5% 10%;
+}
+
+a:not[href="#"]{
+    color: #78580A;
+}
+
+a:hover{
+    color: blue;
 }
