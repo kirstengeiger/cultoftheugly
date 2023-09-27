@@ -72,10 +72,10 @@ footer {
     margin: 5% 80% 5% 10%;
 }
 
-a:not[href="#"]{
+a:not([href^="#"]){
     color: #78580A;
 }
 
-a:hover{
+a:not([href^="#"]):hover{
     color: blue;
 }
